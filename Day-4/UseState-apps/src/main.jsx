@@ -6,6 +6,7 @@ import ShowHide from './ShowHide.jsx'
 import ChangeName from './ChangeName.jsx'
 import LikeButton from './LikeButton.jsx'
 import LightDark from './LightDark.jsx'
+import InputBox from './InputBox.jsx'
 createRoot(document.getElementById('root')).render(
  
     // <App />
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
     // <ShowHide/>
     //  <ChangeName/>
     // <LikeButton/>
-    <LightDark/>
+    // <LightDark/>
+    <InputBox/>
     
 )
