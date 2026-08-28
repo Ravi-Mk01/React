@@ -7,6 +7,7 @@ import ChangeName from './ChangeName.jsx'
 import LikeButton from './LikeButton.jsx'
 import LightDark from './LightDark.jsx'
 import InputBox from './InputBox.jsx'
+import CharacterCounter from './CharacterCounter.jsx'
 createRoot(document.getElementById('root')).render(
  
     // <App />
@@ -15,6 +16,6 @@ createRoot(document.getElementById('root')).render(
     //  <ChangeName/>
     // <LikeButton/>
     // <LightDark/>
-    <InputBox/>
-    
+    // <InputBox/>
+    <CharacterCounter/>
 )
