@@ -4,11 +4,13 @@ import App from './App.jsx'
 import Counter from './Counter.jsx'
 import ShowHide from './ShowHide.jsx' 
 import ChangeName from './ChangeName.jsx'
+import LikeButton from './LikeButton.jsx'
 createRoot(document.getElementById('root')).render(
  
     // <App />
     //  <Counter/>
     // <ShowHide/>
-    <ChangeName/>
+    //  <ChangeName/>
+    <LikeButton/>
     
 )
