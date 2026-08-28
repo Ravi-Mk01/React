@@ -8,6 +8,8 @@ import LikeButton from './LikeButton.jsx'
 import LightDark from './LightDark.jsx'
 import InputBox from './InputBox.jsx'
 import CharacterCounter from './CharacterCounter.jsx'
+import LoginLogout from './LoginLogout.jsx'
+import Todoapplication from './Todo application.jsx'
 createRoot(document.getElementById('root')).render(
  
     // <App />
@@ -17,5 +19,7 @@ createRoot(document.getElementById('root')).render(
     // <LikeButton/>
     // <LightDark/>
     // <InputBox/>
-    <CharacterCounter/>
+    // <CharacterCounter/>
+    // <LoginLogout/>
+    <Todoapplication/>
 )
