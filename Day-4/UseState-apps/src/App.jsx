@@ -67,20 +67,70 @@
 
 import { useState } from "react"
 function App() {
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
+  //     ↑       ↑            ↑
+  //   value  updater    initial value
+
   return (
     <>
       <p> Counter:{count}</p>
-    <button onClick={() =>{
-      setCount(count+1);
-    }}>
-      count
-    </button> 
+      <button onClick={() => {
+        setCount(count + 1);
+      }}>
+        count
+      </button>
     </>
   )
 }
 
 
+
+// import { useState } from "react"
+// → React se useState hook import kar rahe hain.
+// → useState ka use component ke andar data/value ko manage karne ke liye hota hai.
+
+
+// function App() {
+// → App ek React component hai.
+// const [count, setCount] = useState(0);
+// → useState(0) counter ki initial value 0 set karta hai.
+// → count:
+//    Current value ko store karta hai.
+// → setCount:
+//    count ki value change/update karne ke liye function hai.
+// Initially:
+// count = 0
+// <p>Counter:{count}</p>
+// → Screen par count ki current value display hoti hai.
+// Initially:
+// Counter: 0
+// <button onClick={() => {
+//     setCount(count + 1);
+// }}>
+// → Jab button click hota hai, arrow function execute hota hai.
+// → setCount(count + 1) count ki value ko 1 se increase karta hai.
+// Example:
+
+// count = 0
+// setCount(0 + 1)
+
+// New count = 1
+// React automatically component ko re-render karta hai.
+
+// Screen:
+// Counter: 1
+
+// Agar dobara click karoge:
+
+// count = 1
+// setCount(1 + 1)
+// New count = 2
+
+// Screen:
+// Counter: 2
+
+// Agar 5 baar click karoge:
+// Counter: 5
 
 
 
