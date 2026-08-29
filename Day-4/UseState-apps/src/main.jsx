@@ -9,7 +9,8 @@ import LightDark from './LightDark.jsx'
 import InputBox from './InputBox.jsx'
 import CharacterCounter from './CharacterCounter.jsx'
 import LoginLogout from './LoginLogout.jsx'
-import Todoapplication from './Todo application.jsx'
+import Todoapplication from './Todoapplication.jsx'
+import ShoppingCart from './ShoppingCart.jsx'
 createRoot(document.getElementById('root')).render(
  
     // <App />
@@ -21,5 +22,6 @@ createRoot(document.getElementById('root')).render(
     // <InputBox/>
     // <CharacterCounter/>
     // <LoginLogout/>
-    <Todoapplication/>
+    // <Todoapplication/>
+    <ShoppingCart/>
 )
